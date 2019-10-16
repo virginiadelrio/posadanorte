@@ -86,6 +86,16 @@ line-height:28px;
   #posadanortelogo {
    width: 100%;
   }
+
+  .footer {
+    position:fixed;
+    display:flex;
+    bottom:40px;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    width:420px;
+  }
 }
 
 .holder {
