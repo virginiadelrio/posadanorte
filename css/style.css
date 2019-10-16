@@ -79,6 +79,7 @@ line-height:28px;
     opacity:1;
   }
   .comingsoon {
+    margin-top:-10px;
     display: flex;
     justify-content: center;
     align-items: center;
