@@ -5,11 +5,11 @@
     --lunar:#702f26;
     --liquen:#3a7355;
     --uva:#440d2f;
+    background-color:var(--ladrillo);
 }
 
 body {
 font-family: 'Work Sans', sans-serif;
-bg-repeat:norepeat;
 padding:10px;
 font-size: 19px;
 line-height:28px;
@@ -72,8 +72,10 @@ line-height:28px;
     font-weight: bold;
   }
   h4 {
-    font-size: 18px;
+    font-size: 28px;
+    line-height:32px;
     font-weight: 300;
+    opacity:.8;
   }
   .comingsoon {
     margin-top:20px;
