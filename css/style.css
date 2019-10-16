@@ -1,0 +1,105 @@
+:root {
+    --ladrillo:#a24c2a;
+    --siempresol:#d9b34f;
+    --physallis:#db804d;
+    --lunar:#702f26;
+    --liquen:#3a7355;
+    --uva:#440d2f;
+}
+
+body {
+font-family: 'Work Sans', sans-serif;
+bg-repeat:norepeat;
+padding:10px;
+font-size: 19px;
+line-height:28px;
+}
+
+@media screen and (min-width: 601px) {
+  html {
+    min-height:100%;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../assets/posada_norte_fondo.jpeg");
+    background-size:cover;
+    }
+  h1 {
+    font-size: 56px;
+    font-weight:300;
+    line-height:72px;
+  }
+  h2 {
+    font-size: 36px;
+    font-weight:bold;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 19px;
+    font-weight: 300;
+  }
+
+  .comingsoon {
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #posadanortelogo {
+   width: 60%;
+   margin-top:50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    min-height:100%;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../assets/posada_norte_fondo_movil.jpg");
+    background-size:cover;
+    }
+
+  h1 {
+    font-size: 42px;
+    font-weight:300;
+    line-height:72px;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight:bold;
+  }
+  h3 {
+    font-size: 19px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .comingsoon {
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+  }
+
+  #posadanortelogo {
+   width: 100%;
+  }
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+.footer {
+  position:fixed;
+  display:flex;
+  bottom:40px;
+  margin:0 auto;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
